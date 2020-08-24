@@ -8,6 +8,6 @@ javac %WORKSPACE%\HelloWorldExample.java
 
 cd %WORKSPACE%
 
-%DirJdk%\java  HelloWorldExample >>out.txt
+java  HelloWorldExample >>out.txt
 
 pause
