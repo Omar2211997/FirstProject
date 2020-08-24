@@ -8,6 +8,8 @@ cd %WORKSPACE%
 
 timeout 2
 
-java  HelloWorldExample >>out.txt
+rem java  HelloWorldExample >>out.txt
+
+java -cp . HelloWorldExample >>out.txt
 
 pause
