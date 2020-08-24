@@ -1,8 +1,6 @@
 set WORKSPACE=%CD%
 
-set DirJdk=C:\Program Files\Java\jdk1.8.0_261\bin
-
-cd %DirJdk%
+cd C:\Program Files\Java\jdk1.8.0_261\bin
 
 javac %WORKSPACE%\HelloWorldExample.java
 
