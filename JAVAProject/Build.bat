@@ -6,10 +6,6 @@ javac %WORKSPACE%\HelloWorldExample.java
 
 cd %WORKSPACE%
 
-timeout 2
-
-rem java  HelloWorldExample >>out.txt
-
-java -cp . HelloWorldExample >>out.txt
+java  HelloWorldExample >>out.txt
 
 pause
