@@ -1,1 +1,35 @@
-init git
+//****************************************************Byen3emlo 2awwal marra*****************************************************
+init git //empty git repository  localy
+
+git config --global user.name "Omar TERRO" //min ra7 y3addel el file we yerfa3o we min 3emlo 
+
+git config --global user.email "githubomarterro1997@gmail.com" //meshen na3mel set lal email kamen
+
+
+git remote add origin https://github.com/Omar2211997/FirstProject //meshen norbot el project 3al windows bel projet 3al git 
+
+//************************************************************************************************************************
+
+
+
+//*******************************************halla2 hode commandes byn3emlo la kell te8yir bel files taba3na******************* 
+git add . //la nzid el files 3al git
+
+git commit -m "2awwal ta3dil"//mna3mel commit lal ta3dil 3al files
+
+git log //la shouf el commit yalle n3emlo ya3ne el versions lal fichiers
+
+git push origin master//meshen 5allihoon ybayno 3al mawke3 gihub
+
+********************************************************************************************************************************
+
+git clone https://github.com/Omar2211997/FirstProject //meshen njib el ma3loumet men 3an el github we n7otton 3enna bel pc hayde bten3mal kamen eza 2ane 3amel 7ada ma3ee collaborateur men el github ya3ne same7lo yousal lal files we ya5do we y3addel 3leh we bass la y3adde byerja3 bya3mel add we commit we push kal 3ade
+
+git pull origin master //meshen 2a3mel update lal files 3ende 2eza sar fi 2ayya ta7diss 3al gitHub men el collaborateur yalle ma3e bi nafs el project
+
+git reset --hard //meshen fi 7all eza 3adalet 2ayya shi bel files we ma 3melet commit fa fine 2a3mel reset we 2el8e hal ta3dill 2eza ma kenet ba3ed msawe commit fa byerja3 lal version 2abel el ta3dil el 2a5ir yalle ma n3amallo commit akid
+
+git branch //meshen nshouf el branch el mwajoudin bel project 
+
+git checkout -b newbranch//meshen n2dar na3mel branche jdid we 7ott masalam el projects taba3e 3leh we ayya ta3dil bisir 3ala el project taba3e fa bibayen bel branches el jdide moush bel 2adime
+
